@@ -1,0 +1,45 @@
+body {
+  background-color: beige;
+}
+
+.jokes__container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.jokes__button{
+  border: none;
+  padding: 1rem;
+  background-color: #b8d2fc;
+  margin-top: 1rem;
+}
+
+.joke {
+  border: 1px solid black;
+  padding: 1rem;
+  max-width: 600px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.joke__text{
+  font-size: 1rem;
+  grid-rows: 1 / 1;
+  grid-columns: 1 / 1;
+}
+
+.joke__id{
+  font-size: .6rem;
+  color: red;
+  grid-rows: 2 / 2;
+  grid-columns: 1 / 1;
+}
+
+.joke__button{
+  grid-rows: 1 / 1;
+  grid-columns: 2 / 2;
+  justify-self: start;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.remove {
+  float: right;
+  height: 10px;
+  width: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.remove div:first-of-type {
+  width: 15px;
+  height: 3px;
+  transform: rotate(45deg);
+  background: black;
+  position: relative;
+  top: 7px;
+}
+
+.remove div:last-of-type {
+  width: 15px;
+  height: 3px;
+  transform: rotate(-45deg);
+  background: black;
+  position: relative;
+  top: 4px;
+}
